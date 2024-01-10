@@ -58,6 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6006149E2B5C266300AC9062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60505FC22B4D8A5800414AFF /* TodoItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6006149F2B5C266800AC9062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6065AA8F2B4C416D00E31B2E /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6065AA7D2B4C416D00E31B2E = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +96,12 @@
 		6065AA882B4C416D00E31B2E /* VisionTodo */ = {
 			isa = PBXGroup;
 			children = (
+				6006149F2B5C266800AC9062 /* View */,
+				6006149E2B5C266300AC9062 /* Model */,
 				6065AA8D2B4C416D00E31B2E /* VisionTodoApp.swift */,
-				6065AA8F2B4C416D00E31B2E /* ContentView.swift */,
 				6065AA912B4C416E00E31B2E /* Assets.xcassets */,
 				6065AA962B4C416E00E31B2E /* Info.plist */,
 				6065AA932B4C416E00E31B2E /* Preview Content */,
-				60505FC22B4D8A5800414AFF /* TodoItem.swift */,
 			);
 			path = VisionTodo;
 			sourceTree = "<group>";

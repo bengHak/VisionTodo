@@ -11,5 +11,5 @@ struct TodoItem: Hashable {
     var title: String
     var content: String?
     var createdAt: Date
-    var updatedAT: Date
+    var updatedAt: Date
 }
